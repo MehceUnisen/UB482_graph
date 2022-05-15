@@ -2,7 +2,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-heading_list = ["gnss", "msgLen", "year", "month","day", "hour", "min", "sec", "rtkStat","headingStat", "gpsStat", "gloStat","bdsStat", "baselineN", "baselineE","baselineU", "baselineNStd", "baselineEStd","baselineUStd", "heading", "gpsPitch", "gpsRoll","gpsSpeed", "velN", "velE", "velUp", "xigVx", "xigVy", "xigVz", "lat", "lon","roverHei", "ecefX", "ecefY", "ecefZ", "xigLat","xigLon", "xigAlt", "xigEcefX", "xigEcefY","xigEcefZ","secLat", "secLon","secAlt", "gpsWeekSec", "diffage", "speedHeading", "undulation","galStat"]
+heading_list = ["gnss", "msgLen", "year", "month","day", "hour", "min", "sec", "rtkStat","headingStat", "gpsStat","bdsStat", "gloStat", "baselineN", "baselineE","baselineU", "baselineNStd", "baselineEStd","baselineUStd", "heading", "gpsPitch", "gpsRoll","gpsSpeed", "velN", "velE", "velUp", "xigVx", "xigVy", "xigVz", "lat", "lon","roverHei", "ecefX", "ecefY", "ecefZ", "xigLat","xigLon", "xigAlt", "xigEcefX", "xigEcefY","xigEcefZ","secLat", "secLon","secAlt", "gpsWeekSec", "diffage", "speedHeading", "undulation","galStat"]
 
 df = pd.read_csv("log.csv", usecols=heading_list)
 #buraya kadar ortak kod buraya kadar elleme
